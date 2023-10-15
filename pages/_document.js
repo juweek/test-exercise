@@ -1,7 +1,17 @@
+/*
+----------------------------------------
+Import necessary components from next.js and @carbonplan node module
+----------------------------------------
+*/
 import Document, { Html, Main, NextScript, Head } from 'next/document'
 import { Tracking } from '@carbonplan/components'
 import { InitializeColorMode } from 'theme-ui'
 
+
+/* 
+----------------------------------------
+Defines the MyDocument class, which extends Document. It customizes the initial HTML document. Sets the language, adds tracking, and initializes color mode.
+----------------------------------------*/
 class MyDocument extends Document {
   render() {
     return (
