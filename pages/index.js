@@ -20,12 +20,12 @@ const Index = () => {
         </Column>
       </Row>
       <Row>
-        <Column>
+        <Column start={[1, 2, 2, 2]} width={[8]}>
           <CountryData />
         </Column>
       </Row>
     </Layout>
-  )
+  );
 }
 
-export default Index
+export default Index;
